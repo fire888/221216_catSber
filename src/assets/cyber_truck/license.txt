@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cyber Truck
+* source:	https://sketchfab.com/3d-models/cyber-truck-1f5174e78fd549a8be8f7ae622caa223
+* author:	Arion Digital (https://sketchfab.com/andrewswihart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cyber Truck" (https://sketchfab.com/3d-models/cyber-truck-1f5174e78fd549a8be8f7ae622caa223) by Arion Digital (https://sketchfab.com/andrewswihart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

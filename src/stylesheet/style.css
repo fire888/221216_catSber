@@ -1,0 +1,67 @@
+.hidden {
+    display: none;
+}
+.start {
+    min-height: 40px;
+    min-width: 140px;
+    max-width: 140px;
+    background-size: contain;
+    border-radius: 3px;
+    border: 1px #83b1ff solid;
+    cursor: pointer;
+    color: #83b1ff;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/startBtn.png") center no-repeat;
+    background-size: cover;
+}
+.start:hover {
+    color: #343745;
+    background: url("../assets/startBtn.png") center no-repeat #192684;
+    background-size: cover;
+}
+.control {
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #192684;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+    border: 1px #c7ece8 solid;
+    cursor: pointer;
+}
+.arrow-top {
+    right: 5px;
+    bottom: 120px;
+    min-height: 60px;
+    min-width: 110px;
+    background: url("../assets/arrow.png") #19268488 no-repeat center;
+    background-size: contain;
+}
+.arrow-bottom {
+    right: 5px;
+    bottom: 60px;
+    min-height: 60px;
+    min-width: 110px;
+    background: url("../assets/arrow.png") #19268488 no-repeat center;
+    background-size: contain;
+    transform: rotate(180deg);
+}
+.arrow-left{
+    left: -26px;
+    bottom: 90px;
+    min-height: 60px;
+    min-width: 120px;
+    background: url("../assets/arrow.png") #19268488 no-repeat center;
+    background-size: contain;
+    transform: rotate(-90deg);
+}
+.arrow-right {
+    left: 35px;
+    bottom: 90px;
+    min-height: 60px;
+    min-width: 120px;
+    background: url("../assets/arrow.png") #19268488 no-repeat center;
+    background-size: contain;
+    transform: rotate(90deg);
+}

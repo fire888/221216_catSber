@@ -1,0 +1,607 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 49172,
+      "max": [
+        727.6865844726563,
+        79.05140686035156,
+        19.800140380859375
+      ],
+      "min": [
+        -79.09567260742188,
+        -79.191162109375,
+        -386.8169250488281
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 590064,
+      "componentType": 5126,
+      "count": 49172,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 176280,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1180128,
+      "componentType": 5126,
+      "count": 2610,
+      "max": [
+        697.802001953125,
+        49.62675094604492,
+        21.070175170898438
+      ],
+      "min": [
+        -49.21118927001953,
+        -48.74840545654297,
+        -388.0869445800781
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1211448,
+      "componentType": 5126,
+      "count": 2610,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9987166523933411,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 705120,
+      "componentType": 5125,
+      "count": 5808,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1242768,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [
+        832.7279052734375,
+        153.8095703125,
+        17.689132690429688
+      ],
+      "min": [
+        -137.1666259765625,
+        -22.61347198486328,
+        -382.23126220703125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1271952,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 728352,
+      "componentType": 5125,
+      "count": 6894,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1301136,
+      "componentType": 5126,
+      "count": 939,
+      "max": [
+        844.015380859375,
+        230.3968505859375,
+        4.596588134765625
+      ],
+      "min": [
+        -137.73028564453125,
+        17.056133270263672,
+        -369.1212158203125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1312404,
+      "componentType": 5126,
+      "count": 939,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9990485310554504,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 755928,
+      "componentType": 5125,
+      "count": 2139,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1323672,
+      "componentType": 5126,
+      "count": 14,
+      "max": [
+        -104.8885498046875,
+        107.15982818603516,
+        4.119232177734375
+      ],
+      "min": [
+        -135.7352294921875,
+        91.04803466796875,
+        -368.20758056640625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1323840,
+      "componentType": 5126,
+      "count": 14,
+      "max": [
+        -0.9013770818710327,
+        0.04348129779100418,
+        0.43070679903030396
+      ],
+      "min": [
+        -0.9769837260246277,
+        -0.04694573953747749,
+        -0.43178629875183105
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 764484,
+      "componentType": 5125,
+      "count": 42,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1324008,
+      "componentType": 5126,
+      "count": 53,
+      "max": [
+        493.41546630859375,
+        225.6201171875,
+        -14.783096313476563
+      ],
+      "min": [
+        16.750579833984375,
+        134.9588623046875,
+        -349.75897216796875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1324644,
+      "componentType": 5126,
+      "count": 53,
+      "max": [
+        1.0,
+        0.952113926410675,
+        0.8927015066146851
+      ],
+      "min": [
+        -0.3057437241077423,
+        -2.62250814557774e-05,
+        -0.8927013278007507
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 764652,
+      "componentType": 5125,
+      "count": 135,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Arion Digital (https://sketchfab.com/andrewswihart)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cyber-truck-1f5174e78fd549a8be8f7ae622caa223",
+      "title": "Cyber Truck"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 765192,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1325280,
+      "byteOffset": 765192,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2090472,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Tire",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.49863736134655073
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Rims",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4762054059490468
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Undercarag",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5049266695226513
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Body",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1902856685580007,
+          0.1902856685580007,
+          0.1902856685580007,
+          1.0
+        ],
+        "metallicFactor": 0.2156184934220224,
+        "roughnessFactor": 0.4258909405402418
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Headlights",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8929713596497552
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "roughnessFactor": 0.8929713596497552
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "updated_tire001_Tire_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "updated_tire001_Rims_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "updated_tire001_Undercarag_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "updated_tire001_Body_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9
+          },
+          "indices": 11,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "updated_tire001_Headlights_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12
+          },
+          "indices": 14,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "updated_tire001_Glass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15
+          },
+          "indices": 17,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "010c54283cba49faad7ada10a3f5fa51.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.9999999999999964,
+        -1.2246467991473515e-16,
+        8.742277669594045e-08,
+        -0.0,
+        -1.412051397900209e-14,
+        0.9999999999999869,
+        1.6292068494294527e-07,
+        -0.0,
+        8.742277669593931e-08,
+        1.629206849429459e-07,
+        -0.9999999999999829,
+        -0.0,
+        491.3583984375,
+        243.73348999023438,
+        -61.7767333984375,
+        1.0
+      ],
+      "name": "updated_tire001"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -353.1425476074219,
+        -75.60284423828125,
+        183.50839233398438,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "updated_tire001_Tire_0"
+    },
+    {
+      "mesh": 1,
+      "name": "updated_tire001_Rims_0"
+    },
+    {
+      "mesh": 2,
+      "name": "updated_tire001_Undercarag_0"
+    },
+    {
+      "mesh": 3,
+      "name": "updated_tire001_Body_0"
+    },
+    {
+      "mesh": 4,
+      "name": "updated_tire001_Headlights_0"
+    },
+    {
+      "mesh": 5,
+      "name": "updated_tire001_Glass_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
