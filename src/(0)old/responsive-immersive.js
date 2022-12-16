@@ -1,5 +1,6 @@
 // This component is an example of how to separate behavior by device category
 // using 8th Wall Engine sessionAttributes
+
 const responsiveImmersiveComponent = {
     init() {
         const onAttach = ({sessionAttributes}) => {
