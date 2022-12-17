@@ -75,28 +75,24 @@ export const gamePlay = root => {
             isChanged = true
             keyDir = 'down'
             rotation = 0
-            //cat.mesh.rotation.y = 0
             ++newPosIndexCat[2]
         }
         if (data.up) {
             isChanged = true
             keyDir = 'up'
             rotation = Math.PI
-            //cat.mesh.rotation.y = Math.PI
             --newPosIndexCat[2]
         }
         if (data.left) {
             isChanged = true
             keyDir = 'left'
             rotation = Math.PI * 1.5
-            //cat.mesh.rotation.y =
             --newPosIndexCat[0]
         }
         if (data.right) {
             isChanged = true
             keyDir = 'right'
             rotation = Math.PI * 0.5
-            //cat.mesh.rotation.y =
             ++newPosIndexCat[0]
         }
 
@@ -146,7 +142,6 @@ export const gamePlay = root => {
             return;
         }
         moveCat()
-
     })
 }
 
