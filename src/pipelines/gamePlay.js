@@ -47,36 +47,56 @@ export const gamePlay = root => {
         START_CAT_POS_INDEX[2] * SIZE,
     )
     root.level.createLevel(SCHEME)
-
-    const vecCatLookAt = new THREE.Vector3()
     let keyDir = 'bottom'
 
     let currentPosIndexCat = [...START_CAT_POS_INDEX]
-    root.uiEvents.on(data => {
+    let isMovieComplete = true
+
+
+
+    let data = {
+        down: false,
+        left: false,
+        right: false,
+        up: false,
+    }
+    root.uiEvents.on(dataK => {
+        data = dataK
+    })
+
+
+
+    let isCatMove = false
+    const moveCat = () => {
         let isChanged = false
         const newPosIndexCat = [...currentPosIndexCat]
+        let rotation = null
         if (data.down) {
             isChanged = true
             keyDir = 'down'
-            cat.mesh.rotation.y = 0
+            rotation = 0
+            //cat.mesh.rotation.y = 0
             ++newPosIndexCat[2]
         }
         if (data.up) {
             isChanged = true
             keyDir = 'up'
-            cat.mesh.rotation.y = Math.PI
+            rotation = Math.PI
+            //cat.mesh.rotation.y = Math.PI
             --newPosIndexCat[2]
         }
         if (data.left) {
             isChanged = true
             keyDir = 'left'
-            cat.mesh.rotation.y = Math.PI * 1.5
+            rotation = Math.PI * 1.5
+            //cat.mesh.rotation.y =
             --newPosIndexCat[0]
         }
         if (data.right) {
             isChanged = true
             keyDir = 'right'
-            cat.mesh.rotation.y = Math.PI * 0.5
+            rotation = Math.PI * 0.5
+            //cat.mesh.rotation.y =
             ++newPosIndexCat[0]
         }
 
@@ -97,23 +117,36 @@ export const gamePlay = root => {
             }
         }
 
+        rotation !== null && cat.rotateTo(rotation)
+
         if (!isChanged) {
             return;
         }
-
-        vecCatLookAt.x = newPosIndexCat[0] * SIZE
-        vecCatLookAt.y = newPosIndexCat[1] * SIZE
-        vecCatLookAt.z = newPosIndexCat[2] * SIZE
-
         const dataScheme = compare(SCHEME, newPosIndexCat)
         if (dataScheme) {
-            currentPosIndexCat = [...dataScheme.posIndex]
-            cat.mesh.position.set(
-                currentPosIndexCat[0] * SIZE,
-                currentPosIndexCat[1] * SIZE,
-                currentPosIndexCat[2] * SIZE,
-            )
+            isCatMove = true
+            cat.moveTo(
+                dataScheme.posIndex[0] * SIZE,
+                dataScheme.posIndex[1] * SIZE,
+                dataScheme.posIndex[2] * SIZE,
+            ).then(() => {
+                isCatMove = false
+                currentPosIndexCat = [...dataScheme.posIndex]
+            }, () => {
+                isCatMove = false
+                console.log('rej')
+                currentPosIndexCat = [...dataScheme.posIndex]
+            })
         }
+    }
+
+
+    root.frameUpdater.on(n => {
+        if (isCatMove) {
+            return;
+        }
+        moveCat()
+
     })
 }
 

@@ -18,7 +18,7 @@ export const createStudio = () => {
     const controls = new OrbitControls( camera, renderer.domElement );
     controls.target.set( 0, 0.5, 0 );
     controls.update();
-    controls.enablePan = false;
+    //controls.enablePan = false;
     controls.enableDamping = true;
 
     const scene = new THREE.Scene()
@@ -52,9 +52,6 @@ export const createStudio = () => {
             controls.update();
             renderer.render(scene, camera)
         },
-        // setCamera: cam => {
-        //     camera = cam
-        // },
         addToScene: mesh => {
             scene.add(mesh)
         },
