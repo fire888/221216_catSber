@@ -16,10 +16,17 @@ import pz from '../assets/pz.jpg'
 import ny from '../assets/ny.jpg'
 import py from '../assets/py.jpg'
 
+import catModel from '../assets/Cat_walkcycle_v1.glb'
+
 
 export const SEGMENT_SIZE = [40, 30]
 
 export const ASSETS_TO_LOAD = [
+    {
+        type: 'gltf',
+        filename: catModel,
+        key: 'catModel'
+    },
     {
         type: 'obj',
         filename: townSrc,

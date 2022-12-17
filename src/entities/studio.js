@@ -1,9 +1,8 @@
 import * as THREE from 'three'
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 
 export const createStudio = () => {
-    let camera
-
     const renderer = new THREE.WebGLRenderer({
         canvas: document.getElementById( 'webgl-canvas' ),
         antialias: true,
@@ -12,6 +11,16 @@ export const createStudio = () => {
     renderer.setPixelRatio( window.devicePixelRatio)
     renderer.setSize( window.innerWidth, window.innerHeight )
 
+    //let camera
+    const camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 100 );
+    camera.position.set( 5, 2, 8 );
+
+    const controls = new OrbitControls( camera, renderer.domElement );
+    controls.target.set( 0, 0.5, 0 );
+    controls.update();
+    controls.enablePan = false;
+    controls.enableDamping = true;
+
     const scene = new THREE.Scene()
 
     const lightA = new THREE.AmbientLight( 0x4c1200, 1 )
@@ -19,7 +28,7 @@ export const createStudio = () => {
     scene.add( lightA )
 
     const light = new THREE.PointLight( 0x5b7558, 2, 10000)
-    light.position.set( -1000, 100, 200)
+    light.position.set( -100, 100, 200)
     scene.add( light )
     scene.fog = new THREE.Fog(0x000000, 0, 200)
 
@@ -40,11 +49,12 @@ export const createStudio = () => {
             if (!camera ) {
                 return;
             }
+            controls.update();
             renderer.render(scene, camera)
         },
-        setCamera: cam => {
-            camera = cam
-        },
+        // setCamera: cam => {
+        //     camera = cam
+        // },
         addToScene: mesh => {
             scene.add(mesh)
         },

@@ -1,4 +1,4 @@
-export function createKeyBoard (root) {
+export function createUiEvents () {
     const fns = []
 
     const keys = {
@@ -9,6 +9,7 @@ export function createKeyBoard (root) {
         's': false,
         'm': false,
         'w': false,
+        'jump': false,
     }
 
     const keyUpdate = (keyCode, isDown) => {
@@ -37,6 +38,9 @@ export function createKeyBoard (root) {
             case 87:
                 keys['up'] = isDown
                 break
+            case 32:
+                keys['jump'] = isDown
+                break
         }
         for (let i = 0; i < fns.length; ++i) {
             fns[i](keys)
@@ -51,6 +55,7 @@ export function createKeyBoard (root) {
         { domClass: '.arrow-right',  keyCode: 39, domElem: null  },
         { domClass: '.arrow-top',  keyCode: 38, domElem: null },
         { domClass: '.arrow-bottom',  keyCode: 40, domElem: null },
+        { domClass: '.arrow-jump',  keyCode: 32, domElem: null },
     ]
 
 
@@ -70,9 +75,9 @@ export function createKeyBoard (root) {
             fns.push(f)
         },
         show: () => {
-            if (root.device.deviceType === 'desktop') {
-                return;
-            }
+            //if (root.device.deviceType === 'desktop') {
+            //    return;
+            //}
             for (let i = 0; i < arr.length; ++i) {
                 arr[i].domElem.classList.remove('hidden')
             }
